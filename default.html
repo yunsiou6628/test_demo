@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>情緒神經網絡 - 原型 Demo</title>
+    <link rel="stylesheet" href="./default.css">
+</head>
+<body>
+    <div id="ui-layer">
+        <div class="label">情緒神經網絡感測入口</div>
+        <input type="text" id="emotion-input" placeholder="請輸入妳的感受 或 點擊下方句子..." autofocus>
+        <div id="suggestion-tags"></div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="./default.js"></script>
+</body>
+</html>
