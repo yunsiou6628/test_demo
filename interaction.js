@@ -91,6 +91,8 @@ const EMOTION_MAP = {
     // 可以繼續增加...
     // v (Valence, 情緒「正向」或「負向」) 
     // a (Arousal, 情緒的「強度」或「神經興奮程度」 
+    // s (Saturation, 飽和度)
+    // range (範圍/影響力)
     // hue (色相 hue: 0：紅色 - 憤怒/生氣 hue: 50：黃色/暖色 - 快樂/幸福 hue: 240：純藍色 - 難過/憂鬱)
 };
 
